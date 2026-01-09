@@ -1,0 +1,13 @@
+name = "minimal"
+license = "MIT"
+licenselink = "https://github.com/your-username/minimal/blob/master/LICENSE"
+description = "A minimal personal website theme"
+
+[author]
+  name = ""
+  homepage = ""
+
+[original]
+  name = ""
+  homepage = ""
+  repo = ""

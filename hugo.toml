@@ -1,0 +1,19 @@
+baseURL = 'https://dev79844.github.io/'
+languageCode = 'en-us'
+title = 'Dev Parikh'
+theme = 'minimal'
+
+[params]
+  description = "Personal website and blog"
+  github = "Dev79844"
+  twitter = "devparikh142003"
+  linkedin = "dev14"
+  email = "parikhdev13@gmail.com"
+
+[markup]
+  [markup.highlight]
+    style = 'monokai'
+    lineNos = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

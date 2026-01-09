@@ -1,0 +1,9 @@
+<footer>
+  <div class="social-links">
+    {{ with .Site.Params.github }}<a href="https://github.com/{{ . }}" target="_blank" rel="noopener">GitHub</a>{{ end }}
+    {{ with .Site.Params.twitter }}<a href="https://twitter.com/{{ . }}" target="_blank" rel="noopener">Twitter</a>{{ end }}
+    {{ with .Site.Params.linkedin }}<a href="https://linkedin.com/in/{{ . }}" target="_blank" rel="noopener">LinkedIn</a>{{ end }}
+    {{ with .Site.Params.email }}<a href="mailto:{{ . }}">Email</a>{{ end }}
+  </div>
+  <p>&copy; {{ now.Year }} {{ .Site.Title }}</p>
+</footer>
