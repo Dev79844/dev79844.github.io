@@ -1,14 +1,40 @@
 baseURL = 'https://dev79844.github.io/'
 languageCode = 'en-us'
 title = 'Dev Parikh'
-theme = 'minimal'
+theme = 'PaperMod'
 
 [params]
-  description = "Personal website and blog"
-  github = "Dev79844"
-  twitter = "devparikh142003"
-  linkedin = "dev14"
-  email = "parikhdev13@gmail.com"
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = true
+  ShowToc = false
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/Dev79844"
+
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/devparikh142003"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/dev14"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:parikhdev13@gmail.com"
+
+[menu]
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 10
 
 [markup]
   [markup.highlight]
